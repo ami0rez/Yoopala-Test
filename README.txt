@@ -47,7 +47,8 @@ Factoriser autant que voulu et proposer une modification de l'architecture de la
 DDD et architecture hexagonal sont conseillés (création d'autres projets)
 
 Très apprécié : Expliquer les points forts et points faibles, avantages et inconvénients de chacune des réalisations ci-dessus "Extra"
-
+a) Ajouter le logger : permet d'identifier clairement l'emplacement et les scénarios d'erreur pour ne pas perdre de temps en débogage, permet également d'analyser l'application et ses performances
+e) permet l'évolutivité, l'évolution et la correction des erreurs en raison de la bonne identification de l'emplacement (commun/webAPP/Infrastructure) également ou peut réutiliser le même projet sur d'autres projets pour gagner plus de temps et ne pas réinventer la roue
 -----------
 Reponse Question 4-a:
 
