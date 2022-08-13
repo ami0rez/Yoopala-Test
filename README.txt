@@ -48,3 +48,9 @@ DDD et architecture hexagonal sont conseillés (création d'autres projets)
 
 Très apprécié : Expliquer les points forts et points faibles, avantages et inconvénients de chacune des réalisations ci-dessus "Extra"
 
+-----------
+Reponse Question 4-a:
+
+AddTransient : crée des instances à chaque fois qu'elles sont demandées, donc après insertion ou modification, les modifications seront écrasées si le service mm est à nouveau demandé
+AddScoped : crée des instances par requête http, puis après insertion ou modification les modifications seront écrasées dans les nouvelles requêtes http
+AddSingleton : crée une seule instance par service, donc même si on redemande le même service ou on fait une nouvelle demande les modifications seront conservées
